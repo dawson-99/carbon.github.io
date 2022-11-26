@@ -48,7 +48,7 @@
   <movable-area>
     <movable-view bindtap="toShop" direction="horizontal" inertia>
     <view>
-      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/fridge_magnet.jpg"></image>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/%E4%BD%8E%E7%A2%B3%E5%A5%96%E5%8A%B1%E8%AE%A1%E5%88%92/%E5%86%B0%E7%AE%B1%E8%B4%B4.jpg"></image>
       <view class="larInd">冰箱贴</view>
       <view class="smaInd">
         <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
@@ -80,7 +80,7 @@
       </view>
     </view>  
     <view>
-      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/lamp.jpg"></image>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/%E4%BD%8E%E7%A2%B3%E5%A5%96%E5%8A%B1%E8%AE%A1%E5%88%92/%E8%8A%82%E8%83%BD%E7%81%AF.jpg"></image>
       <view class="larInd">环保灯</view>
       <view class="smaInd">
         <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/lamp.jpg"/>
@@ -88,8 +88,8 @@
       </view>
     </view>  
     <view>
-      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/chopsticks.jpg"></image>
-      <view class="larInd">竹筷</view>
+      <image src=""></image>
+      <view class="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/%E4%BD%8E%E7%A2%B3%E5%A5%96%E5%8A%B1%E8%AE%A1%E5%88%92/%E7%AB%B9%E7%AD%B7.jpglarInd">竹筷</view>
       <view class="smaInd">
         <image id="leaf" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/leaf.jpg"/>
         <text>130</text>

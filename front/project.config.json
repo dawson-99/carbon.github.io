@@ -39,7 +39,7 @@
     "useCompilerPlugins": false,
     "ignoreUploadUnusedFiles": true
   },
-  "appid": "wx649ab177cdc87445",
+  "appid": "touristappid",
   "projectname": "front",
   "libVersion": "2.20.1",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
