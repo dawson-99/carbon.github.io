@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.change.mapper.ScoreMapper">
+
+    <select id="queryScore" resultType="com.change.pojo.Score">
+        select *
+        from score where id=#{id};
+    </select>
+
+    <insert id="addTransportationScore">
+        insert into score(id, transportation) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addTrafficScore">
+        insert into score(id, traffic) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addEatingScore">
+        insert into score(id, eating) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addShoppingScore">
+        insert into score(id, shopping) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addSleepingScore">
+        insert into score(id, sleeping) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addPlayingScore">
+        insert into score(id, playing) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addAnsweringScore">
+        insert into score(id, answering) VALUES (#{id},#{score})
+    </insert>
+    <insert id="addCompensatingScore">
+        insert into score(id, compensating) VALUES (#{id},#{score})
+    </insert>
+
+    <update id="updateTransportationScore">
+        update score set transportation=#{score} where id=#{id}
+    </update>
+    <update id="updateTrafficScore">
+        update score set traffic=#{score} where id=#{id}
+    </update>
+    <update id="updateEatingScore">
+        update score set eating=#{score} where id=#{id}
+    </update>
+    <update id="updateShoppingScore">
+        update score set shopping=#{score} where id=#{id}
+    </update>
+    <update id="updateSleepingScore">
+        update score set sleeping=#{score} where id=#{id}
+    </update>
+    <update id="updatePlayingScore">
+        update score set playing=#{score} where id=#{id}
+    </update>
+    <update id="updateAnsweringScore">
+        update score set answering=#{score} where id=#{id}
+    </update>
+    <update id="updateCompensatingScore">
+        update score set compensating=#{score} where id=#{id}
+    </update>
+    <update id="updatePoint">
+        update score set point=#{score} where id=#{id}
+    </update>
+
+</mapper>
