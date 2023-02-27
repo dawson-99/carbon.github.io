@@ -5,7 +5,7 @@
 
 <mapper namespace="com.change.mapper.GoodsMapper">
 
-    <select id="queryAllGoods" resultType="com.change.pojo.Goods">
+    <select id="queryAllGoods" resultType="com.change.pojo.Goods_1">
         select *
         from goods;
     </select>
